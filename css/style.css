@@ -1,0 +1,69 @@
+h1,h2{
+  font-family: 'Sacramento', cursive;
+}
+
+/*element selector*/
+/*@TODO : change image dimensions to a close square*/
+img{
+    width: 200px;
+    height :100%;
+    border : solid 5px #e97d7e;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 10px;
+  }
+  button{
+    display: none
+  }
+  /id selector/
+  #get-in-touch{
+    display: none;
+  }
+  /group selector/
+  #get-in-touch,button{display: none;}
+  #profile-pic{
+    width : 15%;
+    float: left;
+    height :100%;
+  }
+  #bio-data{
+    width : 60%;
+    float: left;
+    height: 100%;
+    background-color: brown;
+    border-radius: 10px;
+  }
+  #contact-details{
+    width: 25%;
+    float: right;
+    height: 100%;
+    background-color: wheat;
+    border-radius: 10px ;
+  }
+  /*>select an element width
+  a specific parent*/
+  #contact-details >table{
+    height :100%;
+  }
+  .colored-text{
+    color:#e97d7e;
+  }
+
+  
+  
+  progress{
+    -webkit-appearance: none;
+    display: block;
+    width: 94%;
+    height: 15px;
+    margin-bottom: 10px;
+  }
+  progress::-webkit-progress-value{
+    background-color: aquamarine;
+  
+  }
+  
+  @media screen and (max-width:700 px){
+    #profile-pic, #bio-data,#contact-details,main,
+  }
