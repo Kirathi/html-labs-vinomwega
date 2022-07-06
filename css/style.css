@@ -1,7 +1,9 @@
 h1,h2{
   font-family: 'Sacramento', cursive;
 }
-
+body{
+  font-family :'poppins',sans-serif;
+}
 /*element selector*/
 /*@TODO : change image dimensions to a close square*/
 img{
@@ -12,44 +14,149 @@ img{
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 10px;
-  }
+  } 
   button{
     display: none
   }
-  /id selector/
-  #get-in-touch{
+  /*id selector*/
+  #get-in-touch,button{
     display: none;
   }
-  /group selector/
+  /*group selector*/
   #get-in-touch,button{display: none;}
-  #profile-pic{
-    width : 15%;
+  header,main{
+    width: 100%;
+  }
+  header{
+    height: 270px;
+  }
+  main{
+    float : left;
+    width: 75%;
+  }
+  aside{
+    float: right;
+    width:25%;
+    background-color:darksalmon;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+  
+  }
+  h2{
+    text-transform: uppercase;
+    color:  rgb(232, 188, 105);
+  }
+  #profile-pic{ 
+    width : 17%;
     float: left;
-    height :100%;
+    border-left-color: #c0646c;
+    border-left-style: solid;
+    border-left-width: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 1px;
+    height: 100%;
+    padding-left: 5px;
   }
   #bio-data{
-    width : 60%;
+    width : 55%;
     float: left;
     height: 100%;
-    background-color: brown;
+    background-color: rgb(161, 120, 39);
     border-radius: 10px;
+    padding-left: 5px;
+  }
+  #skills>progress,#skills>label{
+    margin-left: 10px;
+  }
+  #education>h4,#education>h5,#education>h6{
+    margin-left: 10px;
+  }
+  #education>h5{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  #education>h6{
+    margin-top: 0;
+    font-style: italic;
+  }
+  #intrests>p{
+    margin-left: 10px;
+  }
+  #branding{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 8px;
   }
   #contact-details{
     width: 25%;
     float: right;
     height: 100%;
     background-color: wheat;
-    border-radius: 10px ;
+    color:teal;
+    border-radius: 10px 10px 10px 10px ;
   }
   /*>select an element width
   a specific parent*/
   #contact-details >table{
     height :100%;
   }
+  #bio-data > p{
+    line-height: 33px;
+  }
+  
+  a>img{
+    width: 70%;
+  }
+  td>i{
+    color: black ;
+    margin: 5px;
+    border-style: solid ;
+    border-color: black;
+    border-width: 1px;
+    border-radius:60px ;
+    padding: 5px;
+  }
+  h2>i{
+    margin: 5px;
+    border-style: solid ;
+    border-color: rgb(73, 43, 43);
+    border-width: 1px;
+    border-radius:60px ;
+    padding: 5px;
+  }
+  h3{
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  .job>h4{
+    margin-top: 3px;
+  }
+  small{
+    color: grey;
+  }
+  h4{
+    margin-bottom: 0;
+  }
+  .fa-stack-overflow{
+    padding: 7px;
+  }
   .colored-text{
     color:#e97d7e;
+    text-transform: none;
+  } 
+  ul{
+    list-style: none;
   }
-
+  li::before{
+    content: "\2022";
+    color: #ad4547;
+    width: 1em;
+    margin-left: -1em;
+    display: inline-block;
+  }
   
   
   progress{
@@ -64,6 +171,4 @@ img{
   
   }
   
-  @media screen and (max-width:700 px){
-    #profile-pic, #bio-data,#contact-details,main,
-  }
+  
