@@ -3,21 +3,27 @@
     <head>
         <meta name="author" content="Vin">
         <title>Get in touch</title>
+        <style media="screen">
+            .error{
+                color: red;
+                border-color: red;
+            }
+        </style>
     </head>
     <body>
         <form id="contanct-form"
         method="post"
         action="">
-        <label for="full_name">Name</label>
-        <input required id ='full_name' name="full_name" type="text" class="">
+        <label id="label-full-name" for="full-name">Name</label>
+        <input required id ='full-name' name="full-name" type="text" class="">
 
         <label for="email">Email</label>
         <input required id ='email' name="email" type="email" class="">
 
-        <label for="phone">Phone</label>
+        <label id="label-phone" for="phone">Phone</label>
         <input required id ='phone' name="phone" type="password" class="">
 
-        <label for="github">@Github</label>
+        <label id="label-github" for="github">@Github</label>
         <input required id ='github' name="github" type="text" class="">
 
         <input onclick="validateInput();" type="submit" value="submit"/>
