@@ -21,7 +21,7 @@
 
         <header>
             <div id="profile-pic">
-                <img src="img/see.jpg" alt="my picture">
+                <img src="img/see.png" alt="my picture">
 
             </div>
             <div id="bio-data">
