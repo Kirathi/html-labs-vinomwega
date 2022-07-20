@@ -1,0 +1,13 @@
+title{
+    font-family: 'Abril Fatface', cursive;
+    }
+    body{
+      font-family: 'Poppins', sans-serif;
+    
+      width: 100%;
+      float: left;
+      height:100%;
+      background-color:#385692;
+      border-radius:10px;
+      padding-left: 5px
+    }

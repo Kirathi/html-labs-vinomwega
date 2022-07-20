@@ -14,8 +14,11 @@
         }
 
         </style>
-
-     <link rel = "stylesheet" href = "css/contact.css">
+    <link href="link rel="preconnect href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel = "stylesheet" href = "css/contact.css">
     </head>
     <body>
     <nav>
